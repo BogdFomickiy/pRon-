@@ -1,0 +1,19 @@
+.header-nav {
+    background-color: var(--accent-color);
+    
+}
+
+.header-nav__wrapper{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 500px;
+    background: #101010;
+    border: 1px solid #444;
+    z-index: 3000;
+     list-style: none;
+    
+}
+

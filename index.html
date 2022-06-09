@@ -16,14 +16,17 @@
                     <nav class="nav">
                         <a class="nav__link active"href="#">Всё новое</a>
                         <a class="nav__link active"href="#">Всё старое</a>
-                    </nav>
+                        </nav>
                         <div class="header-nav__logo">
                            <img src="img/logo.png">
                         </div>
-                        <form action="" method="get">
-                            <input name="s" placeholder="Поиск на русском" type="search">
-                        </form>
-                        <div class="header-nav__menu">
+                        <div class="search_content">
+                        <form id="content">
+                            <input type="text" name="input" class="input" id="search-input">
+                            <button type="reset" class="search" id="search-btn"></button>
+                          </form>
+                        </div>
+                        <div class="header-nav__wrapper">
                             <a href="english" class="header-nav__menu-item">English</a>
                             <a href="Ελληνικά" class="header-nav__menu-item">Ελληνικά</a>
                             <a href="Español" class="header-nav__menu-item">Español</a>
@@ -32,6 +35,13 @@
                             <a href="Italiano" class="header-nav__menu-item">Italiano</a>
                             <a href="Magyar" class="header-nav__menu-item">Magyar</a>
                             <a href="日本語" class="header-nav__menu-item">日本語</a>
+                            <a href="Italiano" class="header-nav__menu-item">Italiano</a>
+                            <a href="Russian" class="header-nav__menu-item">Russian</a>
+                            <a href="Ukraine" class="header-nav__menu-item">Ukraine</a>
+                            <a href="Italiano" class="header-nav__menu-item">Italiano</a>
+                            <a href="Italiano" class="header-nav__menu-item">Italiano</a>
+                            <a href="Italiano" class="header-nav__menu-item">Italiano</a>
+                            <a href="Italiano" class="header-nav__menu-item">Italiano</a>
                         </div>
                 </div>
             </div>
@@ -39,14 +49,15 @@
 
     </header>
     <main>
+        
         <div class="container">
             <div class="intro_title">
                 <div class="categories">
                     <h1>Популярные категории</h1>
                 </div>
-                  <div class="contacts-item-twitter">
+                <div class="contacts-item-twitter">
                      <img src="https://iwank.tv/images/twitter-iwanktv.png" alt="Follow @iwanktv on Twitter">
-                   </div>
+                </div>
             </div>
             <section class="main-gallery">
                 <div class="about__img">
@@ -88,7 +99,7 @@
                 </div>
             </section>
         <div class="intro_supptitle">
-            <div class="all_categories">Популярные категории</div>
+            <div class="all_categories">Все категории</div>
         </div>
         <div class="main_navigetion">
             <ul>
@@ -142,6 +153,6 @@
             Iwank.tv has a zero-tolerance policy against illegal pornography.<br>This site is rated with RTA label. Parents, you can easily block access to this site. Please read this page for more informations.<br><br>© 2014-2022 Iwank.tv | Abuse | DMCA | Terms & Conditions | Privacy Policy | 2257 | Porn Sites</p>
     </div>
     
-    
+    <script src="js/search.js"></script> 
 </body>
 </html>
