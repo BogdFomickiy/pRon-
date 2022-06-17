@@ -18,19 +18,16 @@ img {
     width: 100%;
 }
 
-.container {
-    max-width: 980px;
-    margin: auto;
-}
+
+    
+
 
 .nav {
     display: block;
     font-size: 13px;
     line-height: 40px;
-    padding: 0 20px 0 0;
     color: #bbb;
-    
-}
+    }
 
 a {
     color: #ddd;
@@ -39,10 +36,7 @@ a {
 }
 
 
-.header-nav__logo{
-    width: 200px;
-    height: 50px;
-}
+
 
 .search{
     position: absolute;
