@@ -1,21 +1,2 @@
-.categories{
-    clear: both;
-    width: 982px;
-    height: 38px;
-    padding: 0 0;
-    font-size: 18px;
-    line-height: 38px;
-    font-weight: 400;
-    margin: 5px auto;
-    /* white-space: nowrap; */
-    /* text-overflow: ellipsis; */
-    text-transform: uppercase;
-    color: #00c454;
-    border-bottom: 1px solid #3b3b3b;
-    
-}
 
-.contacts-item-twitter{
-    width: 200px;
-    height: 50px;
-}
+
