@@ -97,3 +97,16 @@
     bottom: 0;
 }
 
+.search_content.active::before {
+    top:50%;
+    transform:rotate(-45deg);
+}
+
+.search_content.active span {
+    transform: scale(0);
+}
+
+.search_content.active::after {
+    bottom:40%;
+    transform:rotate(45deg);
+}
