@@ -1,6 +1,6 @@
 .header-navigetion {
     background-color: var(--accent-color);
-    height: 100px;
+    height: 120px;
 }
 
 .header-nav__logo{
@@ -69,15 +69,31 @@
     
 }
 
-.search_content span {
+.search_content::before,
+.search_content span,
+.search_content::after {
     position: absolute;
     left: 0;
     height: 2px;
     width: 100%;
     background-color:var(--banner-h-color) ;
     transition: all 0.5s ease-in-out;
+    z-index: 2;
 }
 
+.search_content span {
+    transform: scale(1);
+}
 
+.search_content::before,
+.search_content::after {
+    content: " ";
+}
 
+.search_content::before{
+   top: 0;
+   }
+.search_content::after {
+    bottom: 0;
+}
 
