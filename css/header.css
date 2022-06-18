@@ -5,8 +5,16 @@
 
 .header-nav__logo{
     width: 200px;
-    height: 50px;
+    padding-top: 90px;
+    position: absolute;
 }
+
+.header__banner-container .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
     
@@ -58,9 +66,7 @@
     padding: 12px;
     cursor: pointer;
     z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
 .search_content span {
