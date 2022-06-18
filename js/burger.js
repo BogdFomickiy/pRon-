@@ -1,6 +1,6 @@
 (function () {
     const iconBurger = document.querySelector(".search_content");
-    const navigationsBody = document.querySelector(".navigation-wrapper");
+    const navigationsBody = document.querySelector(".header-nav__wrapper");
     iconBurger.addEventListener("click", function (e) {
       document.body.classList.toggle("lock");
       iconBurger.classList.toggle("active");
