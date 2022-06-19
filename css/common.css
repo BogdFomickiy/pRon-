@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1, h7 {
+h1, h10 {
     clear: both;
     width: 982px;
     height: 38px;
@@ -44,9 +44,12 @@ body, input, button, input {-webkit-appearance: none;-moz-appearance: none;appea
     scroll-behavior: smooth;
 }
 
+
+
 img {
     display: block;
     width: 100%;
+    
 }
 
 .contacts-item-twitter{
@@ -55,7 +58,7 @@ img {
     border: none;
     position: absolute;
     right: 40px;
-    top: 10px;
+    top: 140px;
     display: inline;
 }
     
@@ -86,12 +89,34 @@ a {
 }
 
 .container__title{
-    clear: both;
-    margin: 5px auto;
-    padding: 0 154px 0 0;
-    width: 828px;
-    position: relative;
+    width: 990px;
+    margin: 10px auto 30px auto;
 }
+
+.about__img {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+    
+    justify-content: space-between;
+}
+
+
+.content-gallery__image {
+    width: 320px;
+    height: 180px;
+    object-fit:cover;
+    margin: 0 3px 8px 3px;
+    padding-bottom: 40px;
+    padding: 1px;
+    padding-bottom: 40px;
+    border: 1px solid #101010;
+    background: #191611;
+    border-radius: 0;
+}
+    
+
 
 
 
