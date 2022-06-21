@@ -113,3 +113,42 @@
 }
 
 
+.search {
+    position: absolute;
+    width: 400px;
+    height: 42px;
+    right: 0;
+    top: 40px;
+    background: #2a2a2a;
+    border: 1px solid #3b3b3b;
+    box-shadow: 0 0 3px #000
+        }
+        .searchTerm {
+            position: absolute;
+            left: 10px;
+            top: 12px;
+            width: 350px;
+            border: none;
+            background: 0 0;
+            font-size: 16px;
+            color: #ccc;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            border-radius: 0;
+        }
+        
+        .searchButton {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 40px;
+            height: 42px;
+            border: none;
+            background: 0 0;
+            font-size: 0;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            cursor: pointer;
+            background: url(/img/search.png) 5px 8px no-repeat;
+        }
+        
