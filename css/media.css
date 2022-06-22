@@ -57,7 +57,7 @@
     }
 }
 @media(max-width:1000px){
-    .main-gallery,.intro_title,.header__banner-container{
+    .main-gallery,.intro_title,.header__banner-container,.container__title{
     max-width: 100%;
     box-sizing: border-box;
 }
