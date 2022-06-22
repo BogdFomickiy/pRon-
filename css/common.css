@@ -22,6 +22,7 @@ h1, h10 {
 }
 
 body{
+    
     font-size: 12px;
     /* color: #a0a0a0; */
     background: url(/images/tb.png) 0 0 repeat-x var(--body-color);
@@ -78,24 +79,20 @@ img {
     font-size: 13px;
     line-height: 40px;
     color: #bbb;
+    padding-right:100px;
     }
 
 a {
     color: #ddd;
     text-decoration: none;
-    outline: 0; 
+    outline: 0;
+    padding-right: 8px; 
 }
 
 
 
 
-.search{
-    position: absolute;
-    width: 400px;
-    height: 42px;
-    right: 0;
-    top: 40px;
-}
+
 
 .container__title{
     width: 990px;

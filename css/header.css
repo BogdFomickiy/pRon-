@@ -1,12 +1,27 @@
 .header-navigetion {
     background-color: var(--accent-color);
     height: 120px;
+   
 }
 
 .header-nav__logo{
-    width: 200px;
-    padding-top: 90px;
     position: absolute;
+    
+    top: 47px;
+}
+.header-nav__logo img{
+    width: 202px;
+    height: 34px;
+    border: none;
+}
+
+.header__banner-container {
+    clear: both;
+    width: 982px;
+    height: 120px;
+    margin: 0 auto;
+    z-index: 11;
+    position: relative;
 }
 
 .header__banner-container .container {
@@ -27,7 +42,7 @@
 
 .header-nav__wrapper{
     position: absolute;
-     top:-100%;
+     top:-120%;
      transition: top 0.3s ease-in;
      overflow: hidden;
      margin: auto;
