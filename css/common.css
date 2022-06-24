@@ -95,15 +95,17 @@ a {
 
 
 .container__title{
-    width: 990px;
-    margin: 10px auto 30px auto;
+   
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1318px;
 }
 
 .about__img {
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-   justify-content: center;
+    justify-content: center;
     
     justify-content: space-between;
 }
@@ -121,6 +123,8 @@ a {
     background: #191611;
     border-radius: 0;
 }
+
+
 
 
 
